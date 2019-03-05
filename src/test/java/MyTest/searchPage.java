@@ -9,12 +9,12 @@ public class searchPage {
 	SoftAssert softAssert = new SoftAssert();
 	
 	@Test
-	public void add(){
+	public void mul(){
 		int a = 10,b = 2;
-		int sum = a+b;
-		Assert.assertEquals(14, 12, "Please check the numbers");// hard assertion
+		int multi = a*b;
+		Assert.assertEquals(18, 20, "Please check the numbers");// hard assertion
 		
-		System.out.println(sum);
+		System.out.println(multi);
 		
 	}
 	@Test
